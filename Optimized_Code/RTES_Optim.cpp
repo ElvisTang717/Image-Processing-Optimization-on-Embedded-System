@@ -300,34 +300,3 @@ void to442_sobel(uint8_t* grayPtr, uint8_t* sobelPtr){
 	
   	}
   }
-
- /* for(int i = row_start; i < row_end; i++){
-    for(int j = 0; j < (Gray_Frame.cols -2); j++){
-
-    int col = Gray_Frame.cols;
-    int8_t Gx_abs = abs(
-    grayPtr[i * col + j]             * Gx[0][0]+
-    grayPtr[i * col + (j + 1)]       * Gx[0][1]+
-    grayPtr[i * col + (j + 2)]       * Gx[0][2]+
-    grayPtr[(i + 1) * col + j]       * Gx[1][0]+
-    grayPtr[(i + 1) * col + (j + 1)] * Gx[1][1]+
-    grayPtr[(i + 1) * col + (j + 2)] * Gx[1][2]+
-    grayPtr[(i + 2) * col + j]       * Gx[2][0]+
-    grayPtr[(i + 2) * col + (j + 1)] * Gx[2][1]+
-    grayPtr[(i + 2) * col + (j + 2)] * Gx[2][2]);
-
-    int8_t Gy_abs = abs(
-    grayPtr[i * col + j]             * Gy[0][0]+
-    grayPtr[i * col + (j + 1)]       * Gy[0][1]+
-    grayPtr[i * col + (j + 2)]       * Gy[0][2]+
-    grayPtr[(i + 1) * col + j]       * Gy[1][0]+
-    grayPtr[(i + 1) * col + (j + 1)] * Gy[1][1]+
-    grayPtr[(i + 1) * col + (j + 2)] * Gy[1][2]+
-    grayPtr[(i + 2) * col + j]       * Gy[2][0]+
-    grayPtr[(i + 2) * col + (j + 1)] * Gy[2][1]+
-    grayPtr[(i + 2) * col + (j + 2)] * Gy[2][2]);
-
-    sobelPtr[i * (col - 2) + j] = Gx_abs + Gy_abs;
-    }
-  }*/
-
