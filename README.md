@@ -55,4 +55,4 @@ Nowadays, people's lifestyle are are getting busier and busier. Thus, having pet
 </p>
 
 # Demonstration
-[![Demo](https://img.youtube.com/vi/https://youtu.be/lZQGizsCtnY/0.jpg)](https://youtu.be/lZQGizsCtnY)
+[![Demo](https://img.youtube.com/vi/lZQGizsCtnY/0.jpg)](https://youtu.be/lZQGizsCtnY)
