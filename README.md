@@ -8,9 +8,10 @@ Nowadays, people's lifestyle are are getting busier and busier. Thus, having pet
 * [Floating Point](#Floating-Point)
 * [Pointer (Call by reference)](#pointer-call-by-reference)
 * [GCC Compiler Flag](#GCC-Compiler-Flag)
-* [Division & Square Root Operations](#Division-&-Square-Root-Operations)
+* [Division & Square Root Operations](#Division--Square-Root-Operations)
 * [Memory Access Time](#Memory-Access-Time)
 * [Cache Blocking](#Cache-Blocking)
+* [Demo](#Demo)
 
 # Accomplishments
 * Automated the water-changing process and re-uses the water on plants based on the data/metrics collected
@@ -55,4 +56,5 @@ Nowadays, people's lifestyle are are getting busier and busier. Thus, having pet
 </p>
 
 # Cache Blocking
+# Demo
 [![Demo](https://img.youtube.com/vi/lZQGizsCtnY/0.jpg)](https://youtu.be/lZQGizsCtnY)
