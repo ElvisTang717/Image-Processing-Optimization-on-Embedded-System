@@ -5,8 +5,8 @@ Nowadays, people's lifestyle are are getting busier and busier. Thus, having pet
 
 # Table of Contents
 * [Accomplishments](#accomplishments)
-* [Bill of Materials](#bill-of-materials)
-* [System Structure](#system-structure)
+* [Floating Point](#Floating-Point)
+* [Pointer (Call by reference)](#Pointer-(Call-by-reference))
 * [High Level Wiring Diagram](#high-level-wiring-diagram)
 * [WebUI](#webui)
 * [Mobile App](#mobile-app)
@@ -18,7 +18,7 @@ Nowadays, people's lifestyle are are getting busier and busier. Thus, having pet
 * Enabled real-time monitoring by establishing the network between the sensing/controlling components and WebUI/App (in HTML, CSS, JavaScript, and Cordova) through the server created by ESP32
 
 
-# Bill of Materials
+# Floating Point
 
 | Components | Part # | Quantity |
 | :-----------:  | :-----------: |:-----------: |
@@ -34,7 +34,7 @@ Nowadays, people's lifestyle are are getting busier and busier. Thus, having pet
 | MCU | ESP32 |1|
 | MCU | ESP32_CAM |1|
 
-# System Structure
+# Pointer (Call by reference)
 <p align="center">
   <img src="Media/System_Structure.jpg" alt="" width="90%"/>
 </p>
