@@ -6,7 +6,7 @@ Nowadays, people's lifestyle are are getting busier and busier. Thus, having pet
 # Table of Contents
 * [Accomplishments](#accomplishments)
 * [Floating Point](#Floating-Point)
-* [Pointer (Call by reference)](#Pointer-(Call-by-reference))
+* [Pointer (Call by reference)](#Pointer-(-Call-by-reference-))
 * [High Level Wiring Diagram](#high-level-wiring-diagram)
 * [WebUI](#webui)
 * [Mobile App](#mobile-app)
