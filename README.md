@@ -7,10 +7,10 @@ Nowadays, people's lifestyle are are getting busier and busier. Thus, having pet
 * [Accomplishments](#accomplishments)
 * [Floating Point](#Floating-Point)
 * [Pointer (Call by reference)](#pointer-call-by-reference)
-* [High Level Wiring Diagram](#high-level-wiring-diagram)
-* [WebUI](#webui)
-* [Mobile App](#mobile-app)
-* [Demonstration](#demonstration)
+* [GCC Compiler Flag](#GCC-Compiler-Flag)
+* [Division & Square Root Operations](#Division-&-Square-Root-Operations)
+* [Memory Access Time](#Memory-Access-Time)
+* [Cache Blocking](#Cache-Blocking)
 
 # Accomplishments
 * Automated the water-changing process and re-uses the water on plants based on the data/metrics collected
@@ -39,20 +39,20 @@ Nowadays, people's lifestyle are are getting busier and busier. Thus, having pet
   <img src="Media/System_Structure.jpg" alt="" width="90%"/>
 </p>
 
-# High Level Wiring Diagram
+# GCC Compiler Flag
 <p align="center">
   <img src="Media/ESP32_WiringDiagram.png" alt="" width="90%"/>
 </p>
 
-# WebUI
+# Division & Square Root Operations
 <p align="center">
   <img src="Media/WebUI.jpg" alt="" width="90%"/>
 </p>
 
-# Mobile App
+# Memory Access Time
 <p align="center">
   <img src="Media/Mobile_App.jpg" alt="" width="90%"/>
 </p>
 
-# Demonstration
+# Cache Blocking
 [![Demo](https://img.youtube.com/vi/lZQGizsCtnY/0.jpg)](https://youtu.be/lZQGizsCtnY)
