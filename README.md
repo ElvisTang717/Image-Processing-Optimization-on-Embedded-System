@@ -1,10 +1,10 @@
 # Image Processing Optimization on Embedded System
 
 # Project Introduction
-Abundant image-processing applications in embedded systems have been highly used in several booming industries, such as fields in automobile, medical, and IoT. 
-However, the processing efficiency and storage limitation on embedded systems is always a tough problem to deal with. 
-Thus, in this project, we aim to optimize the image processing on videos through certain techniques such as multithreading, neon intrinsics, and cache blocking.
-The entire process would be run on a Raspberry Pi 4B, and the video would be converted into gray-scale and applied with a Sobel filter to enhance the edges of the shapes in the video. <br />
+Abundant image-processing applications in embedded systems have been extensively utilized in various thriving industries, including the automotive, medical, and IoT sectors. 
+However, the processing efficiency and storage limitations on embedded systems pose persistent challenges. 
+Therefore, in this project, our goal is to optimize video image processing using specific techniques such as multithreading, neon intrinsics, and cache blocking. 
+The entire process will be executed on a Raspberry Pi 4B, where the video will be converted into grayscale and subjected to a Sobel filter to enhance the edges of shapes in the video. <br />
 
 # Table of Contents
 * [Accomplishments](#accomplishments)
