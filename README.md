@@ -24,19 +24,6 @@ The entire process will be executed on a Raspberry Pi 4B, where the video will b
 
 # Floating Point
 
-| Components | Part # | Quantity |
-| :-----------:  | :-----------: |:-----------: |
-| Water Temparature Sensor| DS18B20 | 1 |
-| Water Quality Sensor |TDS Meter V1.0|1|
-| Water Lavel Sensor | HW-038 |1|
-| Soil Moisture Sensor| YL-69 |1|
-|Light Intensity Sensor|Photoresistance|1|
-| Inertial measurement unit | MPU6050 |1|
-| Water Pump (DC 3v ~ 5V) |---|2|
-| Relay (DC 5V) | --- |3|
-| UV Light (DC 5V) | --- |1|
-| MCU | ESP32 |1|
-| MCU | ESP32_CAM |1|
 
 # Pointer (Call by reference)
 <p align="center">
