@@ -17,10 +17,7 @@ The entire process will be executed on a Raspberry Pi 4B, where the video will b
 * [Demo](#Demo)
 
 # Accomplishments
-* Automated the water-changing process and re-uses the water on plants based on the data/metrics collected
-* Designed the sensing and controlling components that use ESP32 as MCU and connect ESP32 to nine different sensors to collect data and make corresponding decisions to achieve automation
-* Enabled real-time monitoring by establishing the network between the sensing/controlling components and WebUI/App (in HTML, CSS, JavaScript, and Cordova) through the server created by ESP32
-
+* Improve image processing performance from 4.17 FPS to 18.41 FPS (about 4.5 times faster)
 
 # Floating Point
 
