@@ -1,7 +1,10 @@
 # Image Processing Optimization on Embedded System
 
 # Project Introduction
-Nowadays, people's lifestyle are are getting busier and busier. Thus, having pets like a tank of fish becomes a great way to release the pressure from daily life. However, due to the busyness and the lack of time, people might lose patience in taking care of the fish tank. Hence, having an IoT system that could tell you the real-time data of your fish tank would be truly valuable. What could be better? In this project, we aim to build an aquaponics IoT system that can not only monitor the status of the fish tank but also use the collected data for further actions, such as reusing the tank water to irrigate the plants.<br />
+Abundant image-processing applications in embedded systems have been highly used in several booming industries, such as fields in automobile, medical, and IoT. 
+However, the processing efficiency and storage limitation on embedded systems is always a tough problem to deal with. 
+Thus, in this project, we aim to optimize the image processing on videos through certain techniques such as multithreading, neon intrinsics, and cache blocking.
+The entire process would be run on a Raspberry Pi 4B, and the video would be converted into gray-scale and applied with a Sobel filter to enhance the edges of the shapes in the video. <br />
 
 # Table of Contents
 * [Accomplishments](#accomplishments)
