@@ -17,7 +17,9 @@ The entire process will be executed on a Raspberry Pi 4B, where the video will b
 * [Demo](#Demo)
 
 # Accomplishments
-* Improve image processing performance by 4.5 times faster (from 4.17 FPS to 18.41 FPS)
+* Improved image processing speed by 4.5 times faster (from 4.17 FPS to 18.41 FPS)
+* Implemented software multithreading to apply filters to specific sections of the video pixels concurrently.
+*  
 
 # Floating Point
 
