@@ -8,6 +8,8 @@ The entire process will be executed on a Raspberry Pi 4B, where the video will b
 
 # Table of Contents
 * [Accomplishments](#accomplishments)
+* [Multithreading](#Multithreading)
+* [Neon Intrinsics](#Neon-Intrinsics)
 * [Floating Point](#Floating-Point)
 * [Pointer (Call by reference)](#pointer-call-by-reference)
 * [GCC Compiler Flag](#GCC-Compiler-Flag)
