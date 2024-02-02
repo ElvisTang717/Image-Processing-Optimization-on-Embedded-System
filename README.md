@@ -28,7 +28,6 @@ The entire process will be executed on a Raspberry Pi 4B, where the video will b
   Below are the Steps:<br />
 1. Have floating points in binary
 2. Shift the binary number left to move all digits to the left of the decimal
-3. 
 
 # Pointer (Call by reference)
 
