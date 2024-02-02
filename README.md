@@ -12,10 +12,7 @@ The entire process will be executed on a Raspberry Pi 4B, where the video will b
 * [Neon Intrinsics](#Neon-Intrinsics)
 * [Floating Point](#Floating-Point)
 * [Pointer (Call by reference)](#pointer-call-by-reference)
-* [GCC Compiler Flag](#GCC-Compiler-Flag)
-* [Division & Square Root Operations](#Division--Square-Root-Operations)
-* [Memory Access Time](#Memory-Access-Time)
-* [Cache Blocking](#Cache-Blocking)
+* [Memory access & Cache Blocking (GCC Compiler Flag)](#Memory-access-&-Cache-Blocking-GCC-Compiler-Flag)
 * [Demo](#Demo)
 
 # Accomplishments
@@ -32,6 +29,8 @@ Multithreading is a programming technique where a single process is divided into
   * Simplifies complex tasks: Some problems can be divided into smaller, more manageable tasks that can be solved concurrently.
 
 # Neon Intrinsics
+NEON intrinsics refer to a set of low-level programming interfaces provided by ARM's NEON technology, which is an SIMD (Single Instruction, Multiple Data) architecture extension for ARM processors. 
+NEON (New Extendable Optimized Neon) is designed to accelerate multimedia and signal processing applications by performing multiple operations simultaneously on different data elements.
 
 # Floating Point
   Floating-point arithmetic typically provides higher precision compared to integer arithmetic. However, this precision comes at the cost of increased computation time.
@@ -54,8 +53,6 @@ Optimization level flags are compiler options that control the degree of optimiz
    * This level includes more aggressive optimizations compared to -O1. It may perform loop unrolling, instruction scheduling, and further inlining to enhance runtime performance.<br />
 4. "-O3" (High Optimization):<br />
    * This level includes even more aggressive optimizations than -O2. It may perform inter-procedural optimizations, vectorization, and other advanced transformations. <br />
-   
-# Division & Square Root Operations
 
 # Demo
 [![Demo](https://img.youtube.com/vi/lZQGizsCtnY/0.jpg)](https://youtu.be/lZQGizsCtnY)
