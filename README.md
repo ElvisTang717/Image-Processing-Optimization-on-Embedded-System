@@ -18,32 +18,30 @@ The entire process will be executed on a Raspberry Pi 4B, where the video will b
 
 # Accomplishments
 * Improved image processing speed by 4.5 times faster (from 4.17 FPS to 18.41 FPS)
-* Implemented software multithreading to apply filters to specific sections of the video pixels concurrently.
-*  
+* Executed multiple image processes simultaneously through software multithreading implementation
+* Vectorized the computation of image processing through NEON intrinsics
+* Optimized data structure alignment and reduced cache misses through compiler flag
 
 # Floating Point
-
+  Floating-point arithmetic typically provides higher precision compared to integer arithmetic. However, this precision comes at the cost of increased computation time.
+  In other words, there is a trade-off between precision and performance. Thus, to reduce computation time, we can convert floating points to unsigned integers through bit manipulation. <br />
+  Below are the Steps:<br />
+1. Have floating points in binary
+2. Shift the binary number left to move all digits to the left of the decimal
+3. 
 
 # Pointer (Call by reference)
-<p align="center">
-  <img src="Media/System_Structure.jpg" alt="" width="90%"/>
-</p>
 
 # GCC Compiler Flag
-<p align="center">
-  <img src="Media/ESP32_WiringDiagram.png" alt="" width="90%"/>
-</p>
+
 
 # Division & Square Root Operations
-<p align="center">
-  <img src="Media/WebUI.jpg" alt="" width="90%"/>
-</p>
+
 
 # Memory Access Time
-<p align="center">
-  <img src="Media/Mobile_App.jpg" alt="" width="90%"/>
-</p>
+
 
 # Cache Blocking
+
 # Demo
 [![Demo](https://img.youtube.com/vi/lZQGizsCtnY/0.jpg)](https://youtu.be/lZQGizsCtnY)
