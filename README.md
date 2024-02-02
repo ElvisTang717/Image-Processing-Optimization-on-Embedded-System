@@ -27,13 +27,22 @@ The entire process will be executed on a Raspberry Pi 4B, where the video will b
   In other words, there is a trade-off between precision and performance. Thus, to reduce computation time, we can convert floating points to unsigned integers through bit manipulation. <br />
   Below are the Steps:<br />
 1. Have floating points in binary
-2. Shift the binary number left to move all digits to the left of the decimal
+2. Move all digits to the left of the decimal by shifting the binary number left
+3. After the calculation is done, shift the number right for whatever bits were shifted in the previous step
 
 # Pointer (Call by reference)
+When dealing with sizable data structures or arrays, copying data can be both time-consuming and resource-intensive. Pointers provide an alternative approach where the actual data doesn't need to be duplicated, resulting in improved performance. <br />
 
 # GCC Compiler Flag
-
-
+Optimization level flags are compiler options that control the degree of optimization applied to the generated machine code during the compilation process. <br />
+1. "-O0" (No Optimization):<br />
+   * This level turns off almost all optimizations, making the compilation faster and simplifying debugging.<br />
+2. "-O1" (Basic Optimization):<br />
+   * This level enables basic optimizations such as inlining of functions, simplification of expressions, and elimination of redundant code.<br />
+3. "-O2" (Moderate Optimization):<br />
+   * This level includes more aggressive optimizations compared to -O1. It may perform loop unrolling, instruction scheduling, and further inlining to enhance runtime performance.<br />
+4. "-O3" (High Optimization):<br />
+   * This level includes even more aggressive optimizations than -O2. It may perform inter-procedural optimizations, vectorization, and other advanced transformations. 
 # Division & Square Root Operations
 
 
