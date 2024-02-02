@@ -22,6 +22,15 @@ The entire process will be executed on a Raspberry Pi 4B, where the video will b
 * Vectorized the computation of image processing through NEON intrinsics
 * Optimized data structure alignment and reduced cache misses through compiler flag
 
+# Multithreading
+Multithreading is a programming technique where a single process is divided into multiple threads of execution that can run concurrently.
+* Advantages:
+  * Improved responsiveness: Enables concurrent execution of tasks, allowing certain operations to proceed independently.
+  * Better resource utilization: Can take advantage of multiple cores or processors if available.
+  * Simplifies complex tasks: Some problems can be divided into smaller, more manageable tasks that can be solved concurrently.
+
+# Neon Intrinsics
+
 # Floating Point
   Floating-point arithmetic typically provides higher precision compared to integer arithmetic. However, this precision comes at the cost of increased computation time.
   In other words, there is a trade-off between precision and performance. Thus, to reduce computation time, we can convert floating points to unsigned integers through bit manipulation. <br />
@@ -33,7 +42,7 @@ The entire process will be executed on a Raspberry Pi 4B, where the video will b
 # Pointer (Call by reference)
 When dealing with sizable data structures or arrays, copying data can be both time-consuming and resource-intensive. Pointers provide an alternative approach where the actual data doesn't need to be duplicated, resulting in improved performance. <br />
 
-# GCC Compiler Flag
+# Memory access & Cache Blocking (GCC Compiler Flag)
 Optimization level flags are compiler options that control the degree of optimization applied to the generated machine code during the compilation process. <br />
 1. "-O0" (No Optimization):<br />
    * This level turns off almost all optimizations, making the compilation faster and simplifying debugging.<br />
@@ -42,14 +51,9 @@ Optimization level flags are compiler options that control the degree of optimiz
 3. "-O2" (Moderate Optimization):<br />
    * This level includes more aggressive optimizations compared to -O1. It may perform loop unrolling, instruction scheduling, and further inlining to enhance runtime performance.<br />
 4. "-O3" (High Optimization):<br />
-   * This level includes even more aggressive optimizations than -O2. It may perform inter-procedural optimizations, vectorization, and other advanced transformations. 
+   * This level includes even more aggressive optimizations than -O2. It may perform inter-procedural optimizations, vectorization, and other advanced transformations. <br />
+   
 # Division & Square Root Operations
-
-
-# Memory Access Time
-
-
-# Cache Blocking
 
 # Demo
 [![Demo](https://img.youtube.com/vi/lZQGizsCtnY/0.jpg)](https://youtu.be/lZQGizsCtnY)
